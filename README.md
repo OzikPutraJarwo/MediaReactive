@@ -1,4 +1,4 @@
-# MediaReactive.js
+# MediaReactive
 MediaReactive is a JavaScript library that allows you to run functions or display/hide HTML elements based on specific media conditions. Create responsive and adaptive JavaScript code that adjusts to various devices and screen sizes.
 
 ## Key Features:
@@ -55,13 +55,13 @@ MediaReactive.addResizeCallback(() => {
 Install using CDN (Githack):
 
 ```HTML
-<script src="https://raw.githack.com/OzikPutraJarwo/MediaReactive.js/main/mediareactive.js"></script>
+<script src="https://raw.githack.com/OzikPutraJarwo/MediaReactive/main/mediareactive.js"></script>
 ```
 
 Or the minified version:
 
 ```HTML
-<script src="https://raw.githack.com/OzikPutraJarwo/MediaReactive.js/main/mediareactive.min.js"></script>
+<script src="https://raw.githack.com/OzikPutraJarwo/MediaReactive/main/mediareactive.min.js"></script>
 ```
 
 ## Upcoming
