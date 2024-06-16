@@ -50,6 +50,25 @@ MediaReactive.addResizeCallback(() => {
 });
 ```
 
+## Installation
+
+Install using CDN (Githack):
+
+```HTML
+<script src="https://raw.githack.com/OzikPutraJarwo/MediaReactive.js/main/mediareactive.js"></script>
+```
+
+Or the minified version:
+
+```HTML
+<script src="https://raw.githack.com/OzikPutraJarwo/MediaReactive.js/main/mediareactive.min.js"></script>
+```
+
+## Upcoming
+
+- Custom media, both for HTML and JS
+- More fixed media
+
 ## License
 
 [MIT](http://www.opensource.org/licenses/mit-license.php)
