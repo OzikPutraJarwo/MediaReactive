@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./mediareactive.min.js"></script>
+  </head>
+  <body>
+    
+    <div>This thing show in phone<span data-media="phone"> ✅</span></div>
+    <br/>
+    <div>This thing show in tablet<span data-media="tablet"> ✅</span></div>
+    <br/>
+    <div>This thing show in desktop<span data-media="desktop"> ✅</span></div>
+    <br/>
+    <div>This thing show in phone and desktop<span data-media="phone desktop"> ✅</span></div>
+    <br/>
+    <div>This thing show in phone and tablet<span data-media="tablet phone"> ✅</span></div>
+    <br/>
+    <div>This thing show in custom<span data-media-max="1000px" data-media-min="600px"> ✅</span></div>
+    <br/>
+
+    <script>
+        MediaReactive.addResizeCallback(() => {
+          if (MediaReactive.isMedia('phone')) {
+            console.log('This runs on phone');
+          }
+  
+          if (MediaReactive.isMedia('desktop tablet')) {
+            console.log('This runs on desktop and tablet');
+          }
+  
+          if (MediaReactive.isMedia('tablet')) {
+            console.log('This runs on tablet');
+          }
+        });
+    </script>
+    
+
+</body>
+</html>
