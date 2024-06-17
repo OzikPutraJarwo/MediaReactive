@@ -1,3 +1,5 @@
+<img src="./logo.png" alt="MediaReactive Logo" width="200" height="200">
+    
 # MediaReactive
 MediaReactive is a JavaScript library that allows you to run functions or display/hide HTML elements based on specific media conditions. Create responsive and adaptive JavaScript code that adjusts to various devices and screen sizes.
 
@@ -9,7 +11,7 @@ MediaReactive is a JavaScript library that allows you to run functions or displa
 - **Function Flexibility**: MediaReactive allows you to execute specific JavaScript functions only on the media you specify.
 - **Lightweight** : Only about 8.16 kB (unpacked size).
 
-### Media
+## Media
 
 - phone    :   0 - 639px
 - tablet   :   640px - 1023px
@@ -69,11 +71,6 @@ Or the minified version:
 ```HTML
 <script src="https://unpkg.com/mediareactive/mediareactive.min.js"></script>
 ```
-
-## Upcoming
-
-- Custom media, both for HTML and JS
-- More fixed media
 
 ## License
 
