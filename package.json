@@ -1,0 +1,25 @@
+{
+  "name": "mediareactive",
+  "version": "1.0.0",
+  "description": "MediaReactive is a JavaScript library that allows you to run functions or display/hide HTML elements based on specific media conditions.",
+  "main": "mediareactive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OzikPutraJarwo/MediaReactive.git"
+  },
+  "keywords": [
+    "javascript",
+    "javascript-library",
+    "responsive",
+    "media"
+  ],
+  "author": "Ozik Putra Jarwo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OzikPutraJarwo/MediaReactive/issues"
+  },
+  "homepage": "https://github.com/OzikPutraJarwo/MediaReactive#readme"
+}
