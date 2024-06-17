@@ -1,6 +1,6 @@
 {
   "name": "mediareactive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MediaReactive is a JavaScript library that allows you to run functions or display/hide HTML elements based on specific media conditions.",
   "main": "mediareactive.js",
   "module": "mediareactive.min.js",
