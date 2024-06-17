@@ -5,15 +5,15 @@ MediaReactive is a JavaScript library that allows you to run functions or displa
 
 - **Media Detection**: MediaReactive can detect the user's media type (mobile, tablet, desktop, etc.) and adapt the JavaScript behavior accordingly.
 - **HTML Element Control**: You can use custom attributes on HTML elements or call JavaScript functions to show or hide elements based on the media.
-- **Custom Media Definitions**: In addition to the built-in media types like mobile, tablet, and desktop, you can also define your own custom media conditions through JavaScript.
+- **Custom Media Definitions (upcoming)**: In addition to the built-in media types like mobile, tablet, and desktop, you can also define your own custom media conditions through JavaScript.
 - **Function Flexibility**: MediaReactive allows you to execute specific JavaScript functions only on the media you specify.
-- **Easy Integration**: This library is designed to be easily integrated into your web projects, whether using script tags or module systems.
+- **Lightweight** : Only about 8.16 kB (unpacked size).
 
 ### Media
 
-- phone    :   max-width: 639px
-- tablet   :   min-width: 640px and max-width: 1023px
-- desktop  :   min-width: 1024px
+- phone    :   0 - 639px
+- tablet   :   640px - 1023px
+- desktop  :   1024px - ∞
 
 ## Examples
 
@@ -52,16 +52,22 @@ MediaReactive.addResizeCallback(() => {
 
 ## Installation
 
-Install using CDN (Githack):
+Install with npm:
+
+```bash
+npm i mediareactive
+```
+
+Using CDN:
 
 ```HTML
-<script src="https://raw.githack.com/OzikPutraJarwo/MediaReactive/main/mediareactive.js"></script>
+<script src="https://unpkg.com/mediareactive/mediareactive.js"></script>
 ```
 
 Or the minified version:
 
 ```HTML
-<script src="https://raw.githack.com/OzikPutraJarwo/MediaReactive/main/mediareactive.min.js"></script>
+<script src="https://unpkg.com/mediareactive/mediareactive.min.js"></script>
 ```
 
 ## Upcoming
